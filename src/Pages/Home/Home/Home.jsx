@@ -1,7 +1,10 @@
 import '../../../App.css';
 import banner from '../../../assets/file (4) 1.png'
-import AboutUs from '../AboutUs/AboutUs';
-import Service from '../Service/Service';
+import ServiceList from '../ServiceList/ServiceList';
+
+
+
+
 
 
 const Home = () => {
@@ -9,7 +12,7 @@ const Home = () => {
         <div>
 
       
-        <div className='flex'>
+        <div className=' grid grid-cols-1 md:grid-cols-2  gap-4 place-content-between h-48 '>
           <div className="pl-5 mt-36">
           <h2 className="text-4xl font-bold ">BEAUTY SALON <br />
           FOR EVERY MEN</h2>
@@ -18,12 +21,11 @@ const Home = () => {
           <button className="button w-48 h-10 text-white">Get an Appointment</button>
           </div>
           </div>
-         <div className='mt-7  ml-72 pl-44'>
+         <div className='md:ml-32 w-full'>
          <img src={banner} alt="" srcset="" />
          </div>
          </div>
-         <AboutUs></AboutUs>
-         <Service></Service>
+         
         </div>
     );
 };

@@ -1,0 +1,39 @@
+[
+      {
+        "id": 1,
+        "name": "Haircut",
+        "price": 30,
+        "description": "We craft stunning and amazing web UI, using a well drrafted UX to fit your product.",
+        "image_url": "https://example.com/images/haircut.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Manicure",
+        "price": 20,
+        "description": "Amazing flyers, social media posts and brand representations that would make your brand stand out.",
+        "image_url": "https://example.com/images/manicure.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Facial",
+        "price": 50,
+        "description": "With well written codes, we build amazing apps for all platforms, mobile and web apps in general.",
+        "image_url": "https://example.com/images/facial.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Pedicure",
+        "price": 25,
+        "description": 40,
+        "image_url": "https://example.com/images/pedicure.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Hair Coloring",
+        "price": 60,
+        "description": 90,
+        "image_url": "https://example.com/images/hair_coloring.jpg"
+      }
+    ]
+
+  
