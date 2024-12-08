@@ -18,10 +18,16 @@ const ServiceList = () => {
   }, []);
 
     return (
-        <div>
+      <div>
+        <div className='font-bold mt-28 w-full'>
+            <h2 className="text-2xl text-color text-center">Our Awesome <span className='text-black'>Services</span></h2>
+        </div>
+    
+        <div  className='grid grid-cols-2 md:grid-cols-3 mt-11'>
           {
             services.map(item => <ServiceCart key={item._id} item={item}></ServiceCart>)
           }
+        </div>
         </div>
     );
 };

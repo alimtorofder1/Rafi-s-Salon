@@ -3,6 +3,7 @@ const ServiceCart = ({item}) => {
     const { name , image , price , description , image_url} = item
     return (
         <div className="gird md:grid-cols-4 ">
+            
                      <div className="card card-compact bg-base-100 w-96 shadow-xl">
             <figure>
                 <img
